@@ -1,9 +1,9 @@
 #include <stdlib.h>
-
+#include <stdio.h>
 int main()
 {
-    char *x = malloc(10);
-    x[10] = 'a';
+    char *x = new char[10]
+    x[0] = 'a';
     printf("Code Ran Successfully\n");
     return 0;
 }
